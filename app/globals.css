@@ -1,10 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #14111a;
+  --foreground: #f4f5fa;
+  --accent: #c8c8f3;
+  --accent-blur: rgba(200, 200, 243, 0.3);
 }
-
+/* 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -17,10 +19,81 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+  max-width: 1100px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: normal;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: normal;
+}
+
+h5 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+}
+.accent {
+  color: var(--accent);
+}
+
+.bg-accent {
+  color: var(--background);
+  background-color: var(--accent);
+}
+
+.mid-card {
+  width: 300px;
+  height: 200px;
+}
+
+.mid-card p {
+  font-size: small;
+  letter-spacing: normal;
+}
+
+.detail-card {
+  width: 280px;
+  height: 200px;
+  border: 1px solid var(--accent);
+}
+
+.detail-card p {
+  font-size: 12px;
+}
+
+.reason-card {
+  width: 200px;
+  height: 40px;
 }
