@@ -4,7 +4,8 @@
   --background: #14111a;
   --foreground: #f4f5fa;
   --accent: #c8c8f3;
-  --accent-blur: rgba(200, 200, 243, 0.3);
+  --accent-blur: rgba(200, 200, 243, 0.05);
+  --accent-card: rgba(200, 200, 243, 0.2);
 }
 /* 
 @theme inline {
@@ -20,6 +21,18 @@
     --foreground: #ededed;
   }
 } */
+
+@media (max-width: 940px) {
+  .mid-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .reason-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+}
 
 body {
   background: var(--background);
@@ -68,6 +81,9 @@ p {
   color: var(--accent);
 }
 
+.bg-accent-blur {
+  background-color: var(--accent-blur);
+}
 .bg-accent {
   color: var(--background);
   background-color: var(--accent);
@@ -75,9 +91,10 @@ p {
 
 .mid-card {
   width: 300px;
-  height: 200px;
+  /* height: 200px; */
 }
 
+.long-card p,
 .mid-card p {
   font-size: small;
   letter-spacing: normal;
@@ -86,14 +103,43 @@ p {
 .detail-card {
   width: 280px;
   height: 200px;
-  border: 1px solid var(--accent);
 }
 
 .detail-card p {
   font-size: 12px;
 }
 
+.ready-cta,
+.detail-card,
+.reason-card {
+  border: 1px solid var(--accent-card);
+}
+.mid-card img,
+.detail-card img,
+.reason-card img {
+  opacity: 60;
+}
+.mid-card img:hover,
+.detail-card img:hover,
+.reason-card img:hover {
+  opacity: 100;
+}
+
 .reason-card {
   width: 200px;
   height: 40px;
+}
+
+.detail-grid {
+  row-gap: 40px;
+}
+
+ul li {
+  padding: 0.6rem 1rem;
+  border-radius: 0.6rem;
+  border-left: 4px solid;
+}
+
+footer {
+  border-top: 1px solid var(--accent-card);
 }

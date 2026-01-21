@@ -2,9 +2,9 @@ import { Card, LongCard } from "./Card";
 
 export default function MidSection() {
   return (
-    <section className="flex flex-col items-center gap-10 py-5">
+    <section className=" flex flex-col items-center gap-10 py-5">
       <h2 className="text-center">Problemas que a Contela resolve</h2>
-      <div className="flex gap-4">
+      <div className="mid-section flex gap-4">
         <Card
           text="Mensagens perdidas no WhatsApp"
           url="/assets/WA-Business.png"

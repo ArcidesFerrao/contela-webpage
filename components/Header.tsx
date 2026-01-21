@@ -22,7 +22,7 @@ export default function Header() {
           <p>Tudo está ligado. Tudo é visível. </p>
         </div>
       </div>
-      <button className="bg-accent px-4 py-2 rounded-sm w-fit font-semibold">
+      <button className="cursor-pointer bg-accent px-4 py-2 rounded-sm w-fit font-semibold">
         Experimente Gratis
       </button>
     </section>

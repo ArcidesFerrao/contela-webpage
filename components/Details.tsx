@@ -3,10 +3,10 @@ import { DetailCard } from "./Card";
 
 export const Details = () => {
   return (
-    <section className="detail-section items-center flex flex-col gap-5">
+    <section className="detail-section items-center flex flex-col w-full gap-5">
       <h2>O que pode fazer com a Contela</h2>
       <p className="accent">Tudo num sistema simples e conectado</p>
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4">
+      <div className="detail-grid place-items-center  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-between w-full row-gap-4">
         <DetailCard
           url="/assets/icons/date-time.svg"
           detail="Stock em Tempo Real"
