@@ -1,4 +1,5 @@
 import { UseCard } from "./Card";
+import { StartButton } from "./StartButton";
 
 export const UseCase = () => {
   return (
@@ -20,9 +21,10 @@ export const UseCase = () => {
         <p className="accent font-thin">
           Criado para negócios reais. Criado para realidades locais.
         </p>
-        <button className="cursor-pointer bg-accent w-fit font-semibold border py-2 px-5 rounded-sm">
+        <StartButton />
+        {/* <button className="cursor-pointer bg-accent w-fit font-semibold border py-2 px-5 rounded-sm">
           Começar Agora
-        </button>
+        </button> */}
       </div>
     </section>
   );

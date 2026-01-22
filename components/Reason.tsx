@@ -3,7 +3,7 @@ import { ReasonCard } from "./Card";
 
 export default function Reason() {
   return (
-    <section className="w-full flex justify-between items-end reason-section ">
+    <section className=" flex justify-between items-end reason-section ">
       <div className="flex flex-col gap-10">
         <h2>Para quem é a Contela</h2>
         <div className="flex flex-col gap-4">

@@ -1,8 +1,9 @@
 import Image from "next/image";
+import { TryButton } from "./StartButton";
 
 export default function Header() {
   return (
-    <section className="flex flex-col gap-5 py-10">
+    <section className="flex flex-col w-full gap-5 py-10">
       <span>
         <Image src="/favicon.png" alt="evolure logo" width={64} height={64} />
       </span>
@@ -22,9 +23,10 @@ export default function Header() {
           <p>Tudo está ligado. Tudo é visível. </p>
         </div>
       </div>
-      <button className="cursor-pointer bg-accent px-4 py-2 rounded-sm w-fit font-semibold">
+      <TryButton />
+      {/* <button className="cursor-pointer bg-accent px-4 py-2 rounded-sm w-fit font-semibold">
         Experimente Gratis
-      </button>
+      </button> */}
     </section>
   );
 }
