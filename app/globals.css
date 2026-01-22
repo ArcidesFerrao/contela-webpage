@@ -7,26 +7,14 @@
   --accent-blur: rgba(200, 200, 243, 0.05);
   --accent-card: rgba(200, 200, 243, 0.2);
 }
-/* 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-} */
-
-@media (max-width: 940px) {
+@media (min-width: 541px) and (max-width: 840px) {
   .mid-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+}
+@media (max-width: 940px) {
   .reason-section {
     display: grid;
     grid-template-columns: 1fr;
@@ -39,9 +27,53 @@
   }
 }
 
-@media (max-width: 740px) {
+@media (max-width: 540px) {
+  body {
+    align-items: center;
+  }
+  nav a {
+    display: none;
+  }
+  .header-section {
+    padding: 0 1rem;
+  }
   .mid-section {
     flex-direction: column;
+  }
+  .reason-section {
+    padding: 0 1rem;
+  }
+  .reason-section .grid {
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+  .use-section {
+    padding: 0 1rem;
+  }
+
+  .ready-cta {
+    background: none !important;
+    border: none !important;
+    padding: 0.5rem;
+  }
+  h1 {
+    font-size: 40px !important;
+  }
+  h2 {
+    font-size: 20px !important;
+  }
+  h5 {
+    font-size: 16px !important;
+  }
+  p {
+    font-size: small !important;
+  }
+
+  nav {
+    padding: 0.4rem 1rem;
+  }
+  footer p {
+    font-size: x-small;
   }
 }
 

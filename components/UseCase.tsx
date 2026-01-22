@@ -3,7 +3,7 @@ import { StartButton } from "./StartButton";
 
 export const UseCase = () => {
   return (
-    <section className="flex flex-col gap-10">
+    <section className="flex flex-col gap-10 use-section">
       <h2 className="text-center">Porque Usar Contela</h2>
       <ul className="flex flex-col gap-4">
         <UseCard text="Pouco tempo no dia-a-dia" />
@@ -18,7 +18,7 @@ export const UseCase = () => {
           <h2>Pronto para simplificar o seu </h2>
           <h2>negócio?</h2>
         </div>
-        <p className="accent font-thin">
+        <p className="accent font-thin text-center">
           Criado para negócios reais. Criado para realidades locais.
         </p>
         <StartButton />

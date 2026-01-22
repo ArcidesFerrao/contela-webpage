@@ -3,7 +3,7 @@ import { TryButton } from "./StartButton";
 
 export default function Header() {
   return (
-    <section className="flex flex-col w-full gap-5 py-10">
+    <section className="header-section flex flex-col w-full gap-5 py-10">
       <span>
         <Image src="/favicon.png" alt="evolure logo" width={64} height={64} />
       </span>
