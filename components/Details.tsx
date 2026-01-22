@@ -10,7 +10,7 @@ export const Details = () => {
         <DetailCard
           url="/assets/icons/date-time.svg"
           detail="Stock em Tempo Real"
-          text="Veja o que tem disponível a qualquer momento. Nunca mais perca vendas por falta de stock."
+          text="Veja o stock agora. Sem contas. Sem dúvidas."
         />
         <DetailCard
           url="/assets/icons/sales-ops.svg"

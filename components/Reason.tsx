@@ -14,9 +14,9 @@ export default function Reason() {
           <div className="flex flex-col gap-2">
             <div>
               <p className="accent">
-                Se o seu negócio depende de materiais ou produtos para
+                Se o seu negócio depende de materiais ou produtos
               </p>
-              <p className="accent">funcionar, a Contela é para si.</p>
+              <p className="accent">para funcionar, a Contela é para si.</p>
             </div>
             <div>
               <p className="accent">
@@ -30,10 +30,10 @@ export default function Reason() {
       <div className="grid grid-cols-2 gap-4">
         <ReasonCard label="Restaurantes" />
         <ReasonCard label="Lojas & Bares" />
-        <ReasonCard label="Lavandarias" />
-        <ReasonCard label="Serviços" />
-        <ReasonCard label="Negócios" />
         <ReasonCard label="Minimercados" />
+        <ReasonCard label="Lavandarias" />
+        <ReasonCard label="Reparações" />
+        <ReasonCard label="Oficinas" />
       </div>
     </section>
   );

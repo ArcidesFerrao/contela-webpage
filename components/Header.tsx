@@ -7,19 +7,18 @@ export default function Header() {
       <span>
         <Image src="/favicon.png" alt="evolure logo" width={64} height={64} />
       </span>
-      <div className="flex flex-col items-start">
-        <h1>O seu negócio a funcionar sem </h1>
-        <h1 className="accent">confusão</h1>
+      <div className="flex flex-col gap-2 items-start">
+        <div className="flex gap-2 flex-wrap">
+          <h1>O seu negócio a funcionar sem </h1>
+          <h1 className="accent">confusão</h1>
+        </div>
+        <h4 className="accent">Mesmo usando apenas o telefone</h4>
       </div>
       <div className="flex flex-col gap-4">
-        <h5 className="accent">
-          Gestão de stock, fornecedores e entregas num só lugar
-        </h5>
+        <h5>Gestão simples de stock para pequenos negócios</h5>
 
         <div>
-          <p>
-            Sem caos no WhatsApp. Sem adivinhações no Excel. Sem stock perdido.
-          </p>
+          <p>Sem WhatsApp, sem Excel.</p>
           <p>Tudo está ligado. Tudo é visível. </p>
         </div>
       </div>

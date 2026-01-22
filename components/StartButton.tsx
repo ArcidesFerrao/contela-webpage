@@ -16,7 +16,7 @@ export const TryButton = () => {
       href="https://inventory-eight-lemon.vercel.app/"
       className="cursor-pointer font-semibold bg-accent w-fit border py-2 px-4 rounded-sm"
     >
-      Experimente Gratis
+      Ver como Funciona
     </Link>
   );
 };

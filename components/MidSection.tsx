@@ -6,19 +6,19 @@ export default function MidSection() {
       <h2 className="text-center">Problemas que a Contela resolve</h2>
       <div className="mid-section flex gap-4">
         <Card
-          text="Mensagens perdidas no WhatsApp"
+          text="Pedidos perdidos no WhatsApp"
           url="/assets/WA-Business.png"
           alt="whatsapp icon"
         />
         <Card
-          text="Excel confuso e desatualizado"
+          text="Ninguém sabe o stock real"
           url="/assets/excel-organize.jpg"
           alt="confused excel icon"
         />
 
         <LongCard
-          textUp="Stock que desaparece"
-          textDown="sem explicação"
+          textUp="O stock acaba e ninguém"
+          textDown="sabe porquê"
           url="/assets/stock-check.jpg"
           alt="missing stock icon"
         />
