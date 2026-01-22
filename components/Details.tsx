@@ -15,27 +15,27 @@ export const Details = () => {
         <DetailCard
           url="/assets/icons/sales-ops.svg"
           detail="Registo de Vendas Rápido"
-          text="Registre vendas e serviços com facilidade. O stock atualiza automaticamente."
+          text="Registe vendas em segundos. O stock atualiza sozinho."
         />
         <DetailCard
           url="/assets/icons/outline-alerted.svg"
           detail="Alertas Inteligentes"
-          text="Receba avisos quando o stock está a acabar. Nunca mais fique sem produtos importantes."
+          text="Receba avisos antes do stock acabar."
         />
         <DetailCard
           url="/assets/icons/park-outline.svg"
           detail="Pedidos Diretos"
-          text="Faça pedidos aos fornecedores diretamente pelo sistema. Sem chamadas perdidas."
+          text="Faça pedidos aos fornecedores sem chamadas."
         />
         <DetailCard
           url="/assets/icons/delivery-truck-clock.svg"
           detail="Acompanhamento de Entregas"
-          text="Saiba exatamente quando os pedidos vão chegar. Do pedido até à prateleira."
+          text="Saiba quando o pedido chega. Do pedido à prateleira."
         />
         <DetailCard
           url="/assets/icons/circular-connection.svg"
           detail="Tudo Conectado"
-          text="Sem controlo manual. Sem adivinhações. O sistema funciona sozinho."
+          text="Venda, stock e entregas ligados automaticamente."
         />
       </div>
     </section>

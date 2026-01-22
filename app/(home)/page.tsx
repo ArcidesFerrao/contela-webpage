@@ -1,5 +1,6 @@
 import { Details } from "@/components/Details";
 import { Footer } from "@/components/Footer";
+import { FunctionSection } from "@/components/Function";
 import Header from "@/components/Header";
 import MidSection from "@/components/MidSection";
 import Navigator from "@/components/Navigator";
@@ -14,6 +15,7 @@ export default function page() {
       <MidSection />
       <Details />
       <Reason />
+      <FunctionSection />
       <UseCase />
       <Footer />
     </main>

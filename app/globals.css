@@ -212,6 +212,23 @@ footer a span:hover {
   transform: translateX(5px) translateY(-2px);
 }
 
+.function-list li {
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.function-list span {
+  background-color: var(--accent);
+  color: var(--background);
+  border-radius: 50%;
+  width: 2.2rem;
+  height: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .ri--whatsapp-fill {
   display: inline-block;
   width: 48px;
