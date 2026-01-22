@@ -2,8 +2,11 @@ import { Card, LongCard } from "./Card";
 
 export default function MidSection() {
   return (
-    <section className=" flex flex-col items-center gap-10 py-5">
+    <section className=" flex flex-col w-full items-center gap-8 py-5">
       <h2 className="text-center">Problemas que a Contela resolve</h2>
+      <p className="accent">
+        Se isto acontece no seu negócio, a Contela resolve.
+      </p>
       <div className="mid-section flex gap-4">
         <Card
           text="Pedidos perdidos no WhatsApp"

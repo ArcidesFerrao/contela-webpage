@@ -6,7 +6,7 @@ export const UseCase = () => {
     <section className="flex flex-col gap-10 use-section">
       <h2 className="text-center">Porque Usar Contela</h2>
       <ul className="flex flex-col gap-4">
-        <UseCard text="Pouco tempo no dia-a-dia" />
+        <UseCard text="Pouco tempo para controlar tudo manualmente" />
         <UseCard text="Reduz perdas de stock" />
         <UseCard text="Evita atrasos dos fornecedores" />
         <UseCard text="Mantém tudo organizado num só lugar" />

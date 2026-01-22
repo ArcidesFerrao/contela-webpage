@@ -1,5 +1,3 @@
-import React from "react";
-
 export const FunctionSection = () => {
   return (
     <section className="flex flex-col items-center gap-8">

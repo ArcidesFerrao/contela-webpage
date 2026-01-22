@@ -12,10 +12,12 @@ export default function Header() {
           <h1>O seu negócio a funcionar sem </h1>
           <h1 className="accent">confusão</h1>
         </div>
-        <h4 className="accent">Mesmo usando apenas o telefone</h4>
+        <h3 className="accent font-semibold text-xl">
+          Mesmo usando apenas o telefone
+        </h3>
       </div>
       <div className="flex flex-col gap-4">
-        <h5>Gestão simples de stock para pequenos negócios</h5>
+        <h4>Gestão de stock simples para o dia-a-dia do seu negócio</h4>
 
         <div>
           <p>Sem WhatsApp, sem Excel.</p>
@@ -23,9 +25,6 @@ export default function Header() {
         </div>
       </div>
       <TryButton />
-      {/* <button className="cursor-pointer bg-accent px-4 py-2 rounded-sm w-fit font-semibold">
-        Experimente Gratis
-      </button> */}
     </section>
   );
 }
